@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Blue.png" />
+    <None Remove="Assets\Cyan.png" />
+    <None Remove="Assets\Empty.png" />
+    <None Remove="Assets\EmptyBlock.png" />
+    <None Remove="Assets\Green.png" />
+    <None Remove="Assets\I.png" />
+    <None Remove="Assets\J.png" />
+    <None Remove="Assets\L.png" />
+    <None Remove="Assets\O.png" />
+    <None Remove="Assets\Orange.png" />
+    <None Remove="Assets\purple.png" />
+    <None Remove="Assets\Red.png" />
+    <None Remove="Assets\S.png" />
+    <None Remove="Assets\T.png" />
+    <None Remove="Assets\Yellow.png" />
+    <None Remove="Assets\Z.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Blue.png" />
+    <Resource Include="Assets\Cyan.png" />
+    <Resource Include="Assets\Empty.png" />
+    <Resource Include="Assets\EmptyBlock.png" />
+    <Resource Include="Assets\Green.png" />
+    <Resource Include="Assets\I.png" />
+    <Resource Include="Assets\J.png" />
+    <Resource Include="Assets\L.png" />
+    <Resource Include="Assets\O.png" />
+    <Resource Include="Assets\Orange.png" />
+    <Resource Include="Assets\purple.png" />
+    <Resource Include="Assets\Red.png" />
+    <Resource Include="Assets\S.png" />
+    <Resource Include="Assets\T.png" />
+    <Resource Include="Assets\Yellow.png" />
+    <Resource Include="Assets\Z.png" />
+  </ItemGroup>
+
+</Project>
