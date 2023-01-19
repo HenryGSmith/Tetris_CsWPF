@@ -1,5 +1,5 @@
-# Tetris C# WPF implementation
-An implementation of Tetris created by following the fundamental algorithm set out by @OttoBotCode
+# Tetris_CsWPF
+An implementation of Tetris using the WPF framework and c#, created by following the fundamental algorithm set out by @OttoBotCode
 
 https://www.youtube.com/@OttoBotCode/featured
 
