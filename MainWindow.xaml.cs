@@ -57,13 +57,13 @@ namespace Tetris_WPF
 		{
 			InitializeComponent();
 			imageControls = SetupGameCanvas(gameState.GameGrid);
-			//InitializeSound();
+			InitializeSound();
 		}
 
 		private void InitializeSound()
 		{
-			//SoundPlayer sound = new SoundPlayer("Assets/swing thing.wav");
-			//sound.PlayLooping();
+			SoundPlayer sound = new SoundPlayer("Assets\\swing thing.wav");
+			sound.PlayLooping();
 		}
 
 		private Image[,] SetupGameCanvas(GameGrid grid)
