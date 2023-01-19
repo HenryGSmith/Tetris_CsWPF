@@ -15,6 +15,7 @@
     <None Remove="Assets\EmptyBlock.png" />
     <None Remove="Assets\Green.png" />
     <None Remove="Assets\I.png" />
+    <None Remove="Assets\Icon.png" />
     <None Remove="Assets\J.png" />
     <None Remove="Assets\L.png" />
     <None Remove="Assets\O.png" />
@@ -22,13 +23,14 @@
     <None Remove="Assets\purple.png" />
     <None Remove="Assets\Red.png" />
     <None Remove="Assets\S.png" />
+    <None Remove="Assets\swing thing.mp3" />
     <None Remove="Assets\T.png" />
     <None Remove="Assets\Yellow.png" />
     <None Remove="Assets\Z.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Assets\Icon.ico" />
+    <Resource Include="Assets\Icon.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -38,6 +40,7 @@
     <Resource Include="Assets\EmptyBlock.png" />
     <Resource Include="Assets\Green.png" />
     <Resource Include="Assets\I.png" />
+    <Resource Include="Assets\Icon.png" />
     <Resource Include="Assets\J.png" />
     <Resource Include="Assets\L.png" />
     <Resource Include="Assets\O.png" />
@@ -45,6 +48,7 @@
     <Resource Include="Assets\purple.png" />
     <Resource Include="Assets\Red.png" />
     <Resource Include="Assets\S.png" />
+    <Resource Include="Assets\swing thing.mp3" />
     <Resource Include="Assets\T.png" />
     <Resource Include="Assets\Yellow.png" />
     <Resource Include="Assets\Z.png" />
