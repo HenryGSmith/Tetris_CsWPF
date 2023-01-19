@@ -88,6 +88,11 @@
                         Margin="0, 20, 0, 0"
                         Padding="5"
                         Click="PlayAgain_Click"/>
+                <Button Content="Quit"
+                        Background="LightPink"
+                        Margin="0, 20, 0, 0"
+                        Padding="5"
+                        Click="Quit_Click"/>
             </StackPanel>
         </Grid>
         

@@ -193,5 +193,10 @@ namespace Tetris_WPF
 			GameOverMenu.Visibility = Visibility.Hidden;
 			await GameLoop();
 		}
+
+		private void Quit_Click(object sender, RoutedEventArgs e)
+		{
+			Close();
+		}
 	}
 }
