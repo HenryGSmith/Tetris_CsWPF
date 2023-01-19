@@ -24,6 +24,7 @@
     <None Remove="Assets\Red.png" />
     <None Remove="Assets\S.png" />
     <None Remove="Assets\swing thing.mp3" />
+    <None Remove="Assets\swing thing.wav" />
     <None Remove="Assets\T.png" />
     <None Remove="Assets\Yellow.png" />
     <None Remove="Assets\Z.png" />
@@ -49,6 +50,7 @@
     <Resource Include="Assets\Red.png" />
     <Resource Include="Assets\S.png" />
     <Resource Include="Assets\swing thing.mp3" />
+    <Resource Include="Assets\swing thing.wav" />
     <Resource Include="Assets\T.png" />
     <Resource Include="Assets\Yellow.png" />
     <Resource Include="Assets\Z.png" />

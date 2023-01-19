@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Transactions;
@@ -56,6 +57,13 @@ namespace Tetris_WPF
 		{
 			InitializeComponent();
 			imageControls = SetupGameCanvas(gameState.GameGrid);
+			//InitializeSound();
+		}
+
+		private void InitializeSound()
+		{
+			//SoundPlayer sound = new SoundPlayer("Assets/swing thing.wav");
+			//sound.PlayLooping();
 		}
 
 		private Image[,] SetupGameCanvas(GameGrid grid)
